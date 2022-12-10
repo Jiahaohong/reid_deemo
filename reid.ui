@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1231</width>
+    <height>907</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="queryBox">
+     <property name="title">
+      <string>查询信息</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QLabel" name="querylabel">
+        <property name="text">
+         <string>query</string>
+        </property>
+        <property name="indent">
+         <number>-1</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="queryattrlabel">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>attribute</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0" rowspan="2" colspan="3">
+    <widget class="QGroupBox" name="searchBox">
+     <property name="title">
+      <string>检索结果</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_search">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="1" column="0">
+       <widget class="QLabel" name="attr1">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="11" rowspan="2">
+       <widget class="QGroupBox" name="pageselectBox">
+        <property name="title">
+         <string>GroupBox</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="page_up">
+           <property name="text">
+            <string>上一页</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="page_down">
+           <property name="text">
+            <string>下一页</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="attr2">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="6">
+       <widget class="QLabel" name="attr7">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="8">
+       <widget class="QLabel" name="attr8">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="9">
+       <widget class="QPushButton" name="rank9">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">result_group</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="0" column="8">
+       <widget class="QPushButton" name="rank8">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">result_group</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="1" column="10">
+       <widget class="QLabel" name="attr10">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QLabel" name="attr6">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QPushButton" name="rank6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">result_group</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="attr3">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="rank4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">result_group</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="rank1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>270</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">result_group</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="0" column="10">
+       <widget class="QPushButton" name="rank10">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">result_group</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QPushButton" name="rank7">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">result_group</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="1" column="9">
+       <widget class="QLabel" name="attr9">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="rank3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">result_group</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="attr4">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLabel" name="attr5">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="rank2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">result_group</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QPushButton" name="rank5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">result_group</string>
+        </attribute>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QGroupBox" name="fileselectBox">
+     <property name="title">
+      <string>功能选择</string>
+     </property>
+     <widget class="QPushButton" name="queryfile">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>92</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>query</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="galleryfile">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>92</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>gallery</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>92</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>开始检索</string>
+      </property>
+     </widget>
+     <widget class="QSplitter" name="splitter">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>112</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QRadioButton" name="imagemode">
+       <property name="text">
+        <string>图像</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">funtion_group</string>
+       </attribute>
+      </widget>
+      <widget class="QRadioButton" name="attrmode">
+       <property name="text">
+        <string>属性</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">funtion_group</string>
+       </attribute>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>20</y>
+        <width>168</width>
+        <height>247</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>帽子</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>头发</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>上衣</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>上衣颜色</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>下身</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="comboBox_age">
+         <item>
+          <property name="text">
+           <string>不限</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>少年</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>青少年</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>成年</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>老年</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="comboBox_sex">
+         <item>
+          <property name="text">
+           <string>不限</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>男</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>女</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="comboBox_hair">
+         <item>
+          <property name="text">
+           <string>不限</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>短发</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>长发</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="comboBox_hat">
+         <item>
+          <property name="text">
+           <string>不限</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>否</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>是</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QComboBox" name="comboBox_bag">
+         <item>
+          <property name="text">
+           <string>不限</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>背包</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>挎包</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>手提包</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>无包</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QComboBox" name="comboBox_downcolor">
+         <item>
+          <property name="text">
+           <string>不限</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>黑色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>蓝色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>棕色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>灰色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>绿色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>粉红色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>紫色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>白色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>黄色</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QComboBox" name="comboBox_down">
+         <item>
+          <property name="text">
+           <string>不限</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>长裙</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>短裙</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>长裤</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>短裤</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QComboBox" name="comboBox_upcolor">
+         <item>
+          <property name="text">
+           <string>不限</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>黑色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>蓝色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>绿色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>灰色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>紫色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>红色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>白色</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>黄色</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>年龄</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>性别</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="comboBox_up">
+         <item>
+          <property name="text">
+           <string>不限</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>长袖</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>短袖</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>下身颜色</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>背包</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>80</y>
+        <width>112</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QRadioButton" name="oscode">
+       <property name="text">
+        <string>os模式</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="fscode">
+       <property name="text">
+        <string>ts模式</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="displayBox">
+     <property name="title">
+      <string>监控图像显示</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="displaylabel">
+        <property name="text">
+         <string>display</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>queryfile</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>query()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>907</x>
+     <y>156</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>557</x>
+     <y>10</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>galleryfile</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>openfolder()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>921</x>
+     <y>194</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>308</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>reid()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>933</x>
+     <y>237</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>477</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rank1</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>display0()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>414</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>353</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rank2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>display1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>187</x>
+     <y>366</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>384</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rank3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>display2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>287</x>
+     <y>391</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>417</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rank4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>display3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>403</x>
+     <y>428</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>5</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rank5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>display4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>506</x>
+     <y>471</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>479</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rank6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>display5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>626</x>
+     <y>535</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>511</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rank7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>display6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>752</x>
+     <y>523</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>544</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rank8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>display7()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>839</x>
+     <y>570</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>579</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rank9</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>display8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>930</x>
+     <y>560</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>615</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rank10</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>display9()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1042</x>
+     <y>585</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1</x>
+     <y>647</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>page_up</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>pageup()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1215</x>
+     <y>525</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>page_down</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>pagedown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1187</x>
+     <y>723</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1215</x>
+     <y>711</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>imagemode</sender>
+   <signal>pressed()</signal>
+   <receiver>Form</receiver>
+   <slot>set_imagemode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>881</x>
+     <y>54</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>811</x>
+     <y>43</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>attrmode</sender>
+   <signal>pressed()</signal>
+   <receiver>Form</receiver>
+   <slot>set_attrmode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>859</x>
+     <y>70</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>807</x>
+     <y>73</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>oscode</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>set_oscode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>945</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1224</x>
+     <y>102</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fscode</sender>
+   <signal>pressed()</signal>
+   <receiver>Form</receiver>
+   <slot>set_tscode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>923</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1226</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>openimage()</slot>
+  <slot>openfolder()</slot>
+  <slot>display()</slot>
+  <slot>reid()</slot>
+  <slot>display1()</slot>
+  <slot>display2()</slot>
+  <slot>display3()</slot>
+  <slot>display4()</slot>
+  <slot>display5()</slot>
+  <slot>display6()</slot>
+  <slot>display7()</slot>
+  <slot>display8()</slot>
+  <slot>display9()</slot>
+  <slot>display0()</slot>
+  <slot>pageup()</slot>
+  <slot>pagedown()</slot>
+  <slot>set_imagemode()</slot>
+  <slot>set_attrmode()</slot>
+  <slot>query()</slot>
+  <slot>set_oscode()</slot>
+  <slot>set_tscode()</slot>
+ </slots>
+ <buttongroups>
+  <buttongroup name="funtion_group"/>
+  <buttongroup name="result_group"/>
+ </buttongroups>
+</ui>
